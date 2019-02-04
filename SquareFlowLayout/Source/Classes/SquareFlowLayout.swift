@@ -1,6 +1,6 @@
 //
 //  SquareFlowLayout.swift
-//  
+//
 //  Created by Taras Chernyshenko on 11/11/18.
 //  Copyright © 2018 Taras Chernyshenko. All rights reserved.
 //
@@ -21,7 +21,7 @@ public class SquareFlowLayout: UICollectionViewFlowLayout {
     }
     private var cache: [IndexPath : UICollectionViewLayoutAttributes] = [:]
     private var contentHeight: CGFloat = 0
-    private let interSpacing: CGFloat = 1
+    private let interSpacing: CGFloat = 4
     private var contentWidth: CGFloat {
         guard let collectionView = collectionView else {
             return 0
